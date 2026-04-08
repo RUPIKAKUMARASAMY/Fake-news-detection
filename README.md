@@ -87,18 +87,19 @@ The system highlights important words that influenced each model’s decision, m
 
 ## 📂 Project Structure
 
+```
 fake-news-detection/
 │
 ├── models/
-│ ├── vectorizer.pkl
-│ ├── logistic_regression.pkl
-│ ├── naive_bayes.pkl
-│ ├── svm.pkl
-│ ├── random_forest.pkl
-│ └── metrics.json
+│   ├── vectorizer.pkl
+│   ├── logistic_regression.pkl
+│   ├── naive_bayes.pkl
+│   ├── svm.pkl
+│   ├── random_forest.pkl
+│   └── metrics.json
 │
 ├── templates/
-│ └── index.html
+│   └── index.html
 │
 ├── app.py
 ├── train_models.py
@@ -106,7 +107,7 @@ fake-news-detection/
 ├── True.csv
 ├── screenshot.png
 └── README.md
-
+```
 
 ---
 
